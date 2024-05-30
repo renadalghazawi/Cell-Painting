@@ -1,0 +1,17 @@
+# Ignore nextflow work directory
+work/
+.nextflow/
+.nextflow.log
+
+# Ignore other temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore output directories
+output/
+results/
+
+# Ignore sensitive information
+*.secrets
+
